@@ -3,16 +3,10 @@ on:
     branches:
       - master
 
-
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing github action'
-        run: pwd
-        
-      - name: 'testing printing'
-        run: echo mohamed
+      - name: "printing folder content"
+        run: ls
